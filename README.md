@@ -1,0 +1,1 @@
+# OpenClaw Demo\n\nA demo project showcasing OpenClaw + GitHub MCP capabilities.\n
