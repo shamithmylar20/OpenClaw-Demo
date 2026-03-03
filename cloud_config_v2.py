@@ -11,7 +11,7 @@ AWS_REGION = "us-east-1"
 S3_BUCKET = "company-internal-data"
 
 # GitHub Personal Access Token for CI/CD
-GITHUB_TOKEN = "ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef12"
+GITHUB_TOKEN = "ghp_R4nD0mT0k3nV4lu3F0rT3st1ngP3bbl0XyZ"
 
 # Initialize AWS session
 session = boto3.Session(
