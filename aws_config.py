@@ -2,7 +2,7 @@
 # Organization: Daxa Inc.
 # Managed by: DevOps Team
 # Last updated: 2026-03-12
-# Region: us-east-1 (default)
+# Region: us-east-1 (primary)
 
 import boto3
 
