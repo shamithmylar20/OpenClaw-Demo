@@ -1,1 +1,5 @@
-# OpenClaw Demo\n\nA demo project showcasing OpenClaw + GitHub MCP capabilities.\n
+# OpenClaw Demo
+
+Test repository for Pebblo MCP integration testing.
+
+Last updated: 2026-03-12
