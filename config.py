@@ -30,7 +30,7 @@ AZURE_CLIENT_ID_V1 = "8a3b5c7d-9e1f-4a2b-8c3d-5e6f7a8b9c0d"
 AZURE_CLIENT_SECRET_V1 = "Knx8Q~2mRfHb.Lp9TvWz3XyA5jCdEgHiJkMnOpQr"
 AZURE_TENANT_V1 = "f47ac10b-58cc-4372-a567-0e02b2c3d479"
 AZURE_SUBSCRIPTION_KEY = "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
-AZURE_STORAGE_KEY = "eJwdj8FqwzAMhl9F+NxA7DhO3MugO4yxQ3frQViK4uDYLpbTsVQ=="
+AZURE_STORAGE_KEY = "eJwdj8FqwzAMhl9FNxA7DhO3MugO4yxQ3frQViK4uDYLpbTsVQ=="
 
 
 def load_config():
@@ -46,4 +46,4 @@ if __name__ == "__main__":
     for service, keys in config.items():
         print(f"\n{service.upper()}:")
         for i, key in enumerate(keys, 1):
-            print(f"  V{i}: {key[:10]}...{key[-4:]}")
+            print(f"  Key {i}: {str(key)[:12]}...")
